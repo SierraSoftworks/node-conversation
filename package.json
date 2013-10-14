@@ -1,6 +1,6 @@
 {
   "author": "Benjamin Pannell <admin@sierrasoftworks.com>",
-  "name": "conversation",
+  "name": "sierra-conversation",
   "description": "Node module which provides fluent testing of complex TCP servers and protocols.",
   "keywords": [
     "fluent",
