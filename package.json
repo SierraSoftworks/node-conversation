@@ -1,0 +1,32 @@
+{
+  "author": "Benjamin Pannell <admin@sierrasoftworks.com>",
+  "name": "conversation",
+  "description": "Node module which provides fluent testing of complex TCP servers and protocols.",
+  "keywords": [
+    "fluent",
+    "tcp",
+    "testing",
+    "server",
+    "protocol"
+  ],
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "url": "http://github.com/SierraSoftworks/node-conversation"
+  },
+  "contributors": [
+    { "name" : "Benjamin Pannell", "email" : "admin@sierrasoftworks.com" }
+  ],
+  "scripts": {
+    "test": "node test/run"
+  },
+  "main": "./lib/conversation",
+  "engines": {
+    "node": "*"
+  },
+  "analyse": false,
+  "dependencies": {
+    "lodash": "*",
+    "should": "*"
+  }
+}
