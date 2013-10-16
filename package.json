@@ -9,7 +9,7 @@
     "server",
     "protocol"
   ],
-  "version": "1.4.1",
+  "version": "1.5.0",
   "license": "MIT",
   "repository": {
     "url": "http://github.com/SierraSoftworks/node-conversation"

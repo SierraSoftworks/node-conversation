@@ -22,6 +22,9 @@ describe('protocol', function() {
 			.u3.read('MESSAGE:user2:hi;')
 			.u2.read('RECEIVED:2;')
 
+			.u1.send('LOGOUT;')
+			.all.expect('LOGOUT:user1;')
+
 			.run(done);
 	});
 });
