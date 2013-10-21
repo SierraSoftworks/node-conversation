@@ -1,6 +1,13 @@
 # Conversations
 This module is designed to provide developers with an extremely powerful testing framework for complex TCP servers which generally require a large amount of boilerplate code or custom test functions. This module provides a fluent, easy to use and incredibly powerful framework on which extremely complex protocols can be tested.
 
+## Setup
+To use this module, simply add it to your package dependencies and run `npm install`. Alternatively, you can install it manually using the following command.
+
+```
+npm install sierra-conversation
+```
+
 ## Example
 All these things start out with an example of how you can use the test framework. The following is an example of using *node-conversation* with *Mocha*.
 
